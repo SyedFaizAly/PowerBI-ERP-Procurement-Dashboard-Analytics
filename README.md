@@ -1,281 +1,154 @@
-# PowerBI-ERP-Procurement-Dashboard-Analytics
-
-## Overview
-
-This project demonstrates the design and development of an Enterprise Procurement Analytics Dashboard in Power BI, providing real-time visibility into procurement operations and supporting data-driven decision-making.
-
-The solution transforms ERP procurement data into interactive dashboards that help management monitor purchasing activities, procurement efficiency, spending patterns, approval cycles, and cost-saving opportunities.
-
----
-
-## Business Objectives
-
-Organizations generate thousands of procurement transactions across multiple companies, departments, and business units. Analyzing this data manually is time-consuming and often results in delayed decision-making.
-
-This dashboard was developed to:
-
-* Improve procurement visibility
-* Track procurement lifecycle performance
-* Monitor spending across companies
-* Identify cost-saving opportunities
-* Analyze purchasing trends
-* Measure procurement efficiency
-* Monitor procurement milestones and approvals
-
----
-
-## Dashboard Modules
-
-### 1. Executive Procurement Overview
-
-Provides high-level procurement KPIs including:
-
-* Total Purchase Orders
-* Total Purchase Requisitions
-* Total Tender Requests
-* Procurement Spend
-* Cost Savings
-* Open Procurement Requests
-* Completed Procurement Transactions
-* Procurement Performance Indicators
-
----
-
-### 2. Purchase Order Analytics
-
-Provides insights into:
-
-* Purchase Orders by Company
-* Purchase Orders by Status
-* Purchase Orders by Department
-* Purchase Orders by Requestor
-* Purchase Orders by Vendor
-* Purchase Order Amount Analysis
-* Monthly Procurement Trends
-* Purchase Order Creation Timeline
-
-KPIs:
-
-* Total PO Amount
-* Average PO Value
-* Approved PO Count
-* Open PO Count
-* Rejected PO Count
-
----
-
-### 3. Purchase Requisition Analytics
-
-Provides visibility into:
-
-* Requisitions by Department
-* Requisitions by Company
-* Requisition Status Analysis
-* Requisition Requestors
-* Approval Trends
-* Requisition Aging Analysis
-
-KPIs:
-
-* Total PR Count
-* Approved PRs
-* Pending PRs
-* Rejected PRs
-
----
-
-### 4. Tender Analytics
-
-Tracks procurement tender activities:
-
-* Tender Requests
-* Tender Status Distribution
-* Tender Evaluation Progress
-* Vendor Participation
-* Tender Approval Timeline
-* Tender Completion Analysis
-
-KPIs:
-
-* Total Tenders
-* Active Tenders
-* Closed Tenders
-* Tender Success Rate
-
----
-
-### 5. Procurement Lifecycle Analysis
-
-Tracks the complete procurement journey:
-
-Purchase Requisition → Tender → Purchase Order
-
-Provides:
-
-* PR to Tender Timeline
-* Tender to PO Timeline
-* Total Procurement Lead Time
-* Procurement Bottleneck Analysis
-* Procurement Cycle Efficiency
-
----
-
-### 6. Cost Savings Dashboard
-
-Measures procurement savings through:
-
-* Negotiated Savings
-* Budget vs Actual Spend
-* Savings by Vendor
-* Savings by Department
-* Savings by Company
-* Procurement Efficiency Metrics
-
-KPIs:
-
-* Total Savings
-* Savings Percentage
-* Cost Avoidance
-* Budget Utilization
-
----
-
-### 7. Milestone Tracking Dashboard
-
-Provides visibility into procurement milestones:
-
-* Procurement Workflow Stages
-* Approval Milestones
-* Tender Milestones
-* PO Milestones
-* Delayed Activities
-* Milestone Completion Status
-
-KPIs:
-
-* Completed Milestones
-* Delayed Milestones
-* Pending Milestones
-* Milestone SLA Compliance
-
----
-
-## Technology Stack
-
-### Business Intelligence
-
-* Microsoft Power BI Desktop
-* Power BI Service
-* DAX
-* Power Query (M Language)
-
-### Data Sources
-
-* Microsoft Dynamics 365 Finance & Operations
-* ERP Procurement Data
-* OData Entities
-* SQL Server
-* Excel Data Sources
-
-### Development Tools
-
-* Power BI Desktop
-* D365 Data Entites
-* X++ development
-
----
-
-## Data Model
-
-The dashboard uses a star schema architecture:
-
-### Fact Tables
-
-* Purchase Orders
-* Purchase Requisitions
-* Tender Transactions
-* Procurement Milestones
-
-### Dimension Tables
-
-* Companies
-* Vendors
-* Departments
-* Employees
-* Dates
-* Procurement Statuses
-
----
-
-## Key Performance Indicators
-
-### Procurement KPIs
-
-* Total Procurement Spend
-* Total Purchase Orders
-* Total Purchase Requisitions
-* Total Tenders
-* Procurement Cycle Time
-* Cost Savings
-* Budget Utilization
-
-### Operational KPIs
-
-* Approval Lead Time
-* Requisition Processing Time
-* Tender Processing Time
-* Purchase Order Creation Time
-* Vendor Participation Rate
-
----
-
-## Business Value Delivered
-
-* Improved procurement transparency
-* Faster decision-making
-* Reduced procurement cycle times
-* Better spending control
-* Enhanced budget management
-* Improved procurement governance
-* Increased operational efficiency
-
----
-
-## Dashboard Features
-
-* Interactive Drill-through Reports
-* Dynamic Filters and Slicers
-* Cross-Filtering Visualizations
-* KPI Cards
-* Trend Analysis
-* Company-wise Analysis
-* Department-wise Analysis
-* Procurement Lifecycle Tracking
-* Executive Dashboards
-* Detailed Transaction Reports
-
----
-
-## Author
-
-### Syed Faiz Ali
+**ERP Procurement Analytics Dashboard**
+**Overview**
+
+This repository showcases a complete Enterprise Procurement Analytics Dashboard developed in Microsoft Power BI.
+
+The dashboard transforms ERP procurement transactions into actionable business insights, enabling procurement teams, finance departments, and management to monitor procurement activities, spending patterns, approvals, cost savings, and procurement performance.
+
+**Dashboard Preview**
+
+Key Features
+Purchase Order Analytics
+
+**Monitor procurement spending and purchase order activities through:**
+
+Total Purchase Order Value
+Purchase Order Status Analysis
+Purchase Orders by Department
+Purchase Orders by Requestor
+Purchase Orders by Company
+Purchase Order Trends
+Monthly Procurement Analysis
+Purchase Requisition Analytics
+
+**Track and analyze:**
+
+Requisition Requests
+Requisition Statuses
+Department-wise Requests
+Requestors
+Approval Trends
+Requisition Processing Performance
+Tender Management
+
+**Comprehensive visibility into:**
+
+Tender Activities
+Tender Evaluation Process
+Tender Status Tracking
+Vendor Participation
+Procurement Competitions
+Tender Committee Dashboard
+
+**Provides insights into:**
+
+Committee Evaluations
+Tender Review Activities
+Approval Decisions
+Committee Performance
+PO Revisions Dashboard
+
+**Track procurement changes including:**
+
+Purchase Order Amendments
+Revision Trends
+Approval History
+Revision Reasons
+Procurement Milestones
+
+**Monitor procurement lifecycle stages:**
+
+Requisition Creation
+Tender Initiation
+Tender Approval
+Purchase Order Generation
+Procurement Completion
+Procurement Lifecycle Analysis
+
+**The dashboard enables complete tracking of:**
+
+Purchase Requisition
+          ↓
+Tender Creation
+          ↓
+Tender Evaluation
+          ↓
+Tender Approval
+          ↓
+Purchase Order Creation
+          ↓
+PO Revision
+          ↓
+Procurement Completion
+
+**KPIs**
+
+Procurement KPIs
+Total Procurement Spend
+Total Purchase Orders
+Total Purchase Requisitions
+Total Tenders
+Total PO Revisions
+Cost Savings
+Procurement Cycle Time
+Operational KPIs
+Purchase Orders by Status
+Purchase Orders by Department
+Purchase Orders by Requestor
+Procurement Lead Time
+Procurement Milestone Completion Rate
+Dashboard Pages
+Dashboard	Description
+Purchase Orders	Procurement spending and PO analytics
+Purchase Order Details	Detailed PO transactions
+Purchase Requisitions	Requisition tracking
+PO Revisions	Procurement amendments
+Tenders	Tender analytics
+Tender Committee	Committee evaluations
+Tender Committee Drilldown	Detailed committee analysis
+Tender Committee Details	Tender review details
+Milestones	Procurement lifecycle tracking
+Drilldown Features	Interactive navigation
+Technology Stack
+Business Intelligence
+Microsoft Power BI
+DAX
+Power Query
+Data Sources
+ERP Procurement Data
+Microsoft Dynamics 365 Finance & Operations
+OData
+SQL Server
+Development Tools
+Power BI Desktop
+Power BI Service
+GitHub
+Skills Demonstrated
+Power BI Dashboard Development
+Data Modeling
+DAX Measures
+Procurement Analytics
+Business Intelligence
+KPI Development
+ERP Reporting
+Interactive Drill-Through Reporting
+Data Visualization
+Executive Reporting
+
+**Author
+Syed Faiz Ali**
 
 Microsoft Dynamics 365 Finance & Operations Technical Consultant
 
-#### Skills
+**Skills**
 
-* D365 Finance & Operations
-* X++
-* Power BI
-* Power Platform
-* Azure DevOps
-* Integrations & APIs
-* Data Analytics
-* Business Intelligence
-* ERP Reporting Solutions
-
----
-
-## License
-
-This project is intended for portfolio and demonstration purposes.
+Power BI
+Dynamics 365 Finance & Operations
+X++
+Power BI
+Power Platform
+Azure DevOps
+REST APIs
+OData
+Business Intelligence
+Data Analytics
